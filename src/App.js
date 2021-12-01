@@ -4,6 +4,9 @@ import Sobre from './components/pages/Sobre';
 import Contato from './components/pages/Contato';
 import NovoProjeto from './components/pages/NovoProjeto';
 import Projetos from './components/pages/Projetos'
+import Container from './components/layout/Container'
+import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
