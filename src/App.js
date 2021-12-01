@@ -8,7 +8,7 @@ import Projetos from './components/pages/Projetos'
 function App() {
   return (
     <Router>
-      <Footer />
+      <Navbar />
       <div>
         <Link to="/">Home</Link>
         <Link to="/contato">Contato</Link>
