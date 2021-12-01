@@ -3,21 +3,15 @@ import Home from './components/pages/Home';
 import Sobre from './components/pages/Sobre';
 import Contato from './components/pages/Contato';
 import NovoProjeto from './components/pages/NovoProjeto';
-import Projetos from './components/pages/Projetos'
-import Container from './components/layout/Container'
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
+import Projetos from './components/pages/Projetos';
+import Container from './components/layout/Container';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/contato">Contato</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/novoprojeto">Novo Projeto</Link>
-      </div>
       <Switch>
         <Container customClass="min-height">
           <Route exact path= "/">
